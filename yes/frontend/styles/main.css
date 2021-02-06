@@ -1,0 +1,123 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #071C4D;
+    background-color: #071C4D;
+}
+
+.hero img {
+    position: absolute;
+    z-index: 0;
+    align-items: center;
+    max-height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero_Slideshow img {
+    position: absolute;
+    z-index: 0;
+    align-items: center;
+    max-height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.hero_inner img {
+    min-height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.4;
+}
+
+.btn-save {
+    background-color: #FF9E53;
+    color: #ffffff;
+}
+
+.btn-save:hover {
+    background-color: #0032A3;
+    color: #ffffff;
+}
+
+.page-login {
+    height: 100vh;
+    position: absolute;
+    z-index: 2;
+    margin: auto;
+    margin-left: -15px;
+}
+
+.page-login .section-left h1 {
+    font-family: "Playfair Display";
+    font-weight: bold;
+    font-size: 50px;
+    text-align: left;
+    color: #ffffff;
+}
+
+.page-login .section-right a {
+    font-family: Assistant;
+    font-weight: 300;
+    text-decoration: underline;
+    font-size: 20px;
+    text-align: center;
+    color: #9c9c9c;
+}
+
+.mySlides {
+    display: none;
+}
+
+.map_invite img {
+    width: 100%;
+    height: 500px;
+}
+
+.card_map_invite {
+    margin-top: 200px;
+    opacity: 0.9;
+    background-color: #9c9c9c;
+}
+
+.section-fail {
+    height: 90vh;
+}
+
+.section-fail h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #FF0000;
+}
+
+.section-fail p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #b1b1b1;
+}
+
+.logo_sad img {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+@media (max-width: 450px) {
+    .map_invite img {
+        height: 300px;
+    }
+    .card_map_invite {
+        margin-top: 200px;
+    }
+}
+
+@media (min-width: 320px) {
+    .hero_Slideshow img {
+        max-height: 1000px;
+        width: 100%;
+    }
+}
