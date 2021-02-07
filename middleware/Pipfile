@@ -6,6 +6,8 @@ name = "pypi"
 [packages]
 flask = "*"
 flask-wtf = "*"
+pillow = "*"
+pdfkit = "*"
 
 [dev-packages]
 
